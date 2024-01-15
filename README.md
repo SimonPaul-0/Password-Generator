@@ -3,7 +3,7 @@
 This Python program generates a random password based on user preferences. It allows customization of the password length and inclusion of uppercase letters, digits, and special characters.
 ## How to Use
 
-### 1. Run the Program:
+### 1. **Run the Program:**
 
     bash
 
