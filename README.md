@@ -4,34 +4,31 @@ This Python program generates a random password based on user preferences. It al
 ## How to Use
 
 ### 1. **Run the Program:**
+ 
+   ```bash
+   python file.py
+   ```
+### 2. **Enter Password Criteria:**
+- Enter the desired password length.
+- Choose whether to include uppercase letters, digits, and special characters.
+### 3. **View the Result:**
+The program will generate and display the random password based on the provided criteria.
 
-    bash
+## Example
 
-    python password_generator.py
+   ```bash
+   Enter the desired password length: 16
+   Include uppercase letters? (y/n): y
+   Include digits? (y/n): y
+   Include special characters? (y/n): n
+   Generated Password: aB7gHk3pL9qRtFx
+   ```
+## Note
+- If no character set is selected, the program will display an error message.
+- Feel free to customize this program to suit your specific needs. Contributions and improvements are welcome.
 
-    Enter Password Criteria:
-        Enter the desired password length.
-        Choose whether to include uppercase letters, digits, and special characters.
-
-    View the Result:
-
-    The program will generate and display the random password based on the provided criteria.
-
-Example
-
-bash
-
-Enter the desired password length: 16
-Include uppercase letters? (y/n): y
-Include digits? (y/n): y
-Include special characters? (y/n): n
-Generated Password: aB7gHk3pL9qRtFx
-
-Note
-
-    If no character set is selected, the program will display an error message.
-    Feel free to customize this program to suit your specific needs. Contributions and improvements are welcome.
-
-Author
+## Author
 
 [Simon Paul]
+
+Feel free to contribute, report issues, explore the code, and customize this program based on your specific project details.
