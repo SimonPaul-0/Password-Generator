@@ -9,7 +9,6 @@ def generate_password(length=12, use_uppercase=True, use_digits=True, use_specia
         characters += string.digits
     if use_special_chars:
         characters += string.punctuation
-
     if len(characters) == 0:
         print("Error: No character set selected.")
         return None
